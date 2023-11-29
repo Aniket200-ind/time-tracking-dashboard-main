@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-inner-div{
+    @apply flex justify-between items-center;
+}
+
+.flexbox-center{
+    @apply flex items-center justify-center;
+}
+
+.profile-img{
+    @apply object-cover border-2 border-white rounded-full;
+}
+
+.card-info-div{
+    @apply relative z-10 px-5 py-5 space-y-2 cursor-pointer bg-dark-blue rounded-xl h-max;
+}
